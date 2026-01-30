@@ -1,6 +1,6 @@
  #/bin/bash
  while true; do
-   echo "Enter a hostname to look up:"
+   echo "Please enter a hostname to look up:"
    read hostname
 
    nslookup "$hostname"
